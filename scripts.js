@@ -2,7 +2,7 @@ var target = document.querySelector("wordcount");
 var wordCount = document.querySelector("wordCount");
 var charCount = document.querySelector("characterCount");
 var count = function() {
-  var chars = countTarget.value;
+  var chars = target.value;
   var char_length = chars.length;
   var words = characters.split(/[nrs]+/g).filter(function(word) {
     return word.length > 0; 
