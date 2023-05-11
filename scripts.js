@@ -1,6 +1,6 @@
-var target = document.querySelector("wordcount");
-var wordCount = document.querySelector("wordCount");
-var charCount = document.querySelector("characterCount");
+var target = document.querySelector("#wordcount");
+var wordCount = document.querySelector("#wordCount");
+var charCount = document.querySelector("#characterCount");
 var count = function() {
   var chars = target.value;
   var char_length = chars.length;
