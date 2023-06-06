@@ -1,5 +1,7 @@
+var wordInput = document.getElementById("word_input");
+
 var count = function() {
-  var chars = document.getElementById("word_input").value;
+  var chars = wordInput.value;
   var char_length = chars.length;
   var words = chars.split(/[nrs]+/g).filter(function(word) {
     return word.length > 0; 
