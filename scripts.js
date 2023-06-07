@@ -1,4 +1,4 @@
-var wordInput = document.querySelector("#word_input");
+var wordInput = document.querySelector('#word_input');
 
 var count = function() {
   var chars = wordInput.value;
